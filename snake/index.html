@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="user-scalable=0">    
+ <meta name="format-detection" content="telephone=0"> 
+  <title>Змейка</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <div class="colorChange">
+      <input value="#00FF00" id="snakeColor" type="color">
+      <p id="colorLabel">Цвет змейки</p>
+    </div>
+    <button id="up">^</button>
+    <button id="left"><</button>
+    <button id="right">></button>
+    <button id="down">^</button>
+    <button id="again">Начать заново</button>
+<!--Просьба повернуть экран----------------------------------------------->
+    <div class="changeor">
+      <div>
+        <img class='changeor__image' src="cs/img/changeor.gif" alt="">
+        <div class="changeor__title">Поверните экран, чтобы продолжить</div>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
